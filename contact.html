@@ -18,6 +18,38 @@
       </ul>
     </nav>
   </div>
+  <div class="contact-form">
+    <form
+  action="https://formspree.io/f/xzbnenne"
+  method="POST">
+  <label>
+    Name:
+    <input type="text" name="name">
+  </label>
+  <br>
+  <label>
+    Your email:
+    <input type="text" name="email">
+  </label>
+  <br>
+  <label>
+    Reason For Contact:
+    <input list="Contact" name="Reason For Contact">
+  </label>
+    <datalist id="Contact">
+      <option value="Saying Hello">
+      <option value="Questions">
+      <option value="Interview">
+    </datalist>
+    <br>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+</div>
     <script src="index.js"></script>
   </body>
 </html>
