@@ -75,3 +75,13 @@ input[type=checkbox]:checked ~ label > img {
     transition: transform 0.25s ease;
     cursor: zoom-in;
 }
+
+.download-1 {
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.download-2 {
+    padding-top: 5px;
+    padding-left: 40px;
+}
