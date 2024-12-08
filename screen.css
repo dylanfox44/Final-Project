@@ -86,6 +86,29 @@ input[type=checkbox]:checked ~ label > img {
     padding-left: 40px;
 }
 
+.details {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: rgb(11 124 43 / 0.5);
+    border-radius: 20px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-container {
+    float: left;
+    margin: 10px;
+    padding-bottom: 55px;
+}
+
+.details section p {
+    margin: 20px;
+    line-height: 1.4em;
+}
+
 .contact-form { 
     flex-grow: 1;
     flex-basis: 0;
