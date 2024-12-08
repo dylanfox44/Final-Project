@@ -5,13 +5,6 @@ a.active {
 
 .container img {
 cursor: zoom-in;
+transform: scale(1.5);
 }
 
-input[type=checkbox] {
-display: none;
-}
-
-input[type=checkbox]:checked ~ label > img {
-    transform: scale(1.5);
-    cursor: zoom-out;
-}
