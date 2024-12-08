@@ -56,7 +56,6 @@ h2 {
 }
 
 .container img {
-    margin: 100px;
     transition: transform 0.25s ease;
     cursor: zoom-in;
 }
@@ -71,7 +70,6 @@ input[type=checkbox]:checked ~ label > img {
 }
 
 .container-2 img{
-    margin: 100px;
     transition: transform 0.25s ease;
     cursor: zoom-in;
 }
