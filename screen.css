@@ -56,11 +56,13 @@ h2 {
 }
 
 .container img {
-cursor: zoom-in;
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
 }
 
 input[type=checkbox] {
-display: none;
+    display: none;
 }
 
 input[type=checkbox]:checked ~ label > img {
