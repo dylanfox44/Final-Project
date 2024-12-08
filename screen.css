@@ -3,6 +3,21 @@ a.active {
     font-weight: bold;
 }
 
+body {
+    font-family: Helvitca, sans sans-serif;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+h1 {
+    background-color: #0B7C2B;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
 .container img {
 cursor: zoom-in;
 }
