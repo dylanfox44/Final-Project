@@ -71,8 +71,8 @@ input[type=checkbox]:checked ~ label > img {
 }
 
 .container-2 img{
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 40px;
     transition: transform 0.25s ease;
     cursor: zoom-in;
