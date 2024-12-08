@@ -110,6 +110,10 @@ input[type=checkbox]:checked ~ label > img {
     line-height: 1.4em;
 }
 
+p1 {
+    text-align: center;
+}
+
 .contact-form { 
     flex-grow: 1;
     flex-basis: 0;
