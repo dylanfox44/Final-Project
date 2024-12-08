@@ -71,4 +71,5 @@ input[type=checkbox]:checked ~ label > img {
 
 .container-2 img{
     cursor: zoom-in;
+    align-items: center; 
 }
